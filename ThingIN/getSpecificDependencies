@@ -1,0 +1,21 @@
+{
+    "query": [
+        {
+            "$domain": "http://thingin.orange.com/formationthingin/supervisordemo/",
+             "$alias": "objects",
+             "$classes" : {
+	"$any_in" :    		["http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#ConnectivityDevice", "https://saref.etsi.org/core/Sensor", "https://saref.etsi.org/core/Actuator", "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#Processor" ]
+      				  
+    			},
+            "->http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#hasConnectivityDependency" : "var1" *dependency type*
+        },
+        {
+              "$alias" : "var1",
+             "$iri": "http://thingin.orange.com/formationthingin/supervisordemo/Gateway" /*device iri*/
+         }
+
+     ],
+    "return" : "objects",
+
+     "view": {}
+}

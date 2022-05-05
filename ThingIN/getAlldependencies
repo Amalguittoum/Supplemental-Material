@@ -1,0 +1,28 @@
+{
+    "query":[
+                 {
+                   "$domain": "http://thingin.orange.com/formationthingin/supervisordemo/",
+ 
+       "$classes" : {
+	"$any_in" :    		["http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#ConnectivityDevice", "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#IoTDevice"]
+      				  
+    			},
+
+                   "$relationships" : [{ "$avatar" : "av2", "$direction" : "ANY"}]
+                 },
+
+                 {
+                   "$alias" : "av2",
+                     "$classes" : {
+     					   "$any_in" : ["http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#ConnectivityDevice", "http://www.semanticweb.org/OrangeLab/ontologies/2021/9/IoTD#IoTDevice"]
+      				  
+    			}
+             
+                 }
+            ],
+
+    "view": {}
+}
+
+
+
