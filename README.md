@@ -3,7 +3,7 @@ Semantic rules, functions, datasets and queries for IoT dependencies inference
 ======
 
 
-This repositoty includes a set of materials used to infer IoT dpendencies between devices. It includes:
+This repositoty includes a set of materials used to infer IoT dependencies between devices. It includes:
 * A set of SHACL rules to infer dependencies.
 * A set of SHACL rules and functions for Entity resolution.
 * A set of DataSets representing smart home scenarios according to the IoT-D ontology.
