@@ -1,6 +1,5 @@
 # Complements
 Semantic rules, functions, datasets and queries for IoT dependencies inference
-Dependencies inference
 ======
 
 
