@@ -12,7 +12,6 @@ This repositoty includes a set of materials used to infer IoT dependencies betwe
 
 
 
-## Contact
- * e-mail: amal.guittoum@orange.com
+
 
 
